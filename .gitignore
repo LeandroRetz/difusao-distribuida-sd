@@ -1,0 +1,4 @@
+*.class
+logs/
+*.pid
+*.log

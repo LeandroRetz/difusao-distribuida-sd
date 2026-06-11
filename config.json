@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {"id": "nodo1", "host": "127.0.0.1", "port": 9011},
+    {"id": "nodo2", "host": "127.0.0.1", "port": 9012},
+    {"id": "nodo3", "host": "127.0.0.1", "port": 9013}
+  ],
+  "leader_id": "nodo1",
+  "broadcast_mode": "ATOMIC_SEQUENCER",
+  "heartbeat_interval_ms": 2000,
+  "heartbeat_timeout_ms": 6000,
+  "ack_timeout_ms": 3000,
+  "retransmit_interval_ms": 1500
+}
