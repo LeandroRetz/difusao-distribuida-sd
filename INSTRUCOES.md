@@ -300,3 +300,24 @@ java DistributedNode config.json nodo3
 # Teste automatizado
 java TestRunner
 ```
+
+---
+
+## Publicar no GitHub
+
+O repositório Git já está inicializado nesta pasta. Para criar o repositório remoto e enviar o código:
+
+```bash
+cd /home/leandro/Downloads/sd
+./push_github.sh
+```
+
+Na primeira execução, o script abrirá o fluxo de login do GitHub no navegador (`gh auth login`). Após autenticar, o repositório será criado em:
+
+`https://github.com/LeandroRetz/difusao-distribuida-sd`
+
+Para usar outro nome de repositório ou usuário:
+
+```bash
+./push_github.sh meu-repo-outro-nome MeuUsuarioGitHub
+```
